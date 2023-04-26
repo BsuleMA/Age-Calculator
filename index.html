@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="images/favicon-32x32.png">
+    <title>Age Calculator App</title>
+</head>
+<body>
+
+    <section class="main-card">
+        <div class="main-container">
+            <div class="dates">
+                <p>Day</p>
+                <input type="number" placeholder="DD" min="1" max="31" class="day" required>
+                <p class="require"></p>
+            </div>
+            <div class="dates">
+                <p>Month</p>
+                <input type="number" placeholder="MM" min="1" max="12" class="month" required>
+                <p class="require"></p>
+            </div>
+            <div class="dates">
+                <p>Year</p>
+                <input type="text" placeholder="YYYY"class="year" required>
+                <p class="require"></p>
+            </div>
+        </div>
+        <button class="btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+    
+    <hr>
+
+    <section class="writing-part">
+        <p class="ot"><span class="yearoutput">--</span> years</p>
+        <p class="ot"><span class="monthoutput">--</span> months</p>
+        <p class="ot"><span class="dayoutput">--</span> days</p>
+    </section>
+</section>
+
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.frontendmentor.io/profile/BsuleMA">Mikail Sule</a>.
+        </div>
+    </footer>
+    
+    <script src="script.js" ></script>
+</body>
+</html>
